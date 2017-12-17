@@ -14,18 +14,16 @@ public class ShoppingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shoppings);
 
-        ListView listView = (ListView) findViewById(R.id.listaShopping);
+        ListView listView = findViewById(R.id.listaShopping);
 
         ArrayList<String> shoppingLocal = preencherDados();
 
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, shoppingLocal);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, shoppingLocal);
         listView.setAdapter(arrayAdapter);
-
-
     }
 
     private ArrayList<String> preencherDados() {
-        ArrayList<String> dados = new ArrayList<String>();
+        ArrayList<String> dados = new ArrayList<>();
         dados.add("Center Um Shopping");
         dados.add("RioMar Shopping");
         dados.add("Shopping Iguatemi");

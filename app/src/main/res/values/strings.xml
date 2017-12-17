@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Nossa Fortaleza</string>
+    <string name="atracoes">Atrações</string>
+    <string name="praias">Praias</string>
+    <string name="artesanato">Artesanato</string>
+    <string name="shoppings">Shoppings</string>
+    <string name="pracas">Praças</string>
+    <string name="parques_aquaticos">Parques Aquaticos</string>
+    <string name="banner_fortaleza">Banner Fortaleza</string>
+    <string name="fortaleza">Fortaleza</string>
+</resources>

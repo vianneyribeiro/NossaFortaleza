@@ -14,17 +14,16 @@ public class PracasActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pracas);
 
-        ListView listView = (ListView) findViewById(R.id.listaPracas);
+        ListView listView = findViewById(R.id.listaPracas);
 
         ArrayList<String> pracasLocal = preencherDados();
 
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, pracasLocal);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, pracasLocal);
         listView.setAdapter(arrayAdapter);
-
     }
 
     private ArrayList<String> preencherDados() {
-        ArrayList<String> dados = new ArrayList<String>();
+        ArrayList<String> dados = new ArrayList<>();
         dados.add("Pracinha do Lagamar");
         dados.add("Praça da Messejana");
         dados.add("Praça Luiza Távora");

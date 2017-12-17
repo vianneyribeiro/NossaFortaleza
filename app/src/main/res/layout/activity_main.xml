@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vianneyribeiro.nossafortaleza.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:contentDescription="@string/fortaleza"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fortaleza3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/atracoes"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/praias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/praias" />
+
+            <Button
+                android:id="@+id/artesanato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/artesanato" />
+
+            <Button
+                android:id="@+id/shoppings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shoppings" />
+
+            <Button
+                android:id="@+id/pracas"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pracas" />
+
+            <Button
+                android:id="@+id/parqueslivres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/parques_aquaticos" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
