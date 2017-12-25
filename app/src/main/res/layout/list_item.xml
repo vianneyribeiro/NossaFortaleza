@@ -13,29 +13,19 @@
 
     <TextView
         android:id="@+id/nome"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        style="@style/TextViewPadrao"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="20sp"
         android:textStyle="italic" />
 
     <TextView
         android:id="@+id/distancia"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp" />
+        style="@style/TextViewPadrao" />
 
     <TextView
         android:id="@+id/descricao"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/TextViewPadrao"
         android:layout_marginBottom="16dp"
-        android:layout_marginLeft="16sp"
-        android:layout_marginStart="16dp"
         android:gravity="fill_horizontal" />
 
 </LinearLayout>
