@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button artesanato = findViewById(R.id.artesanato);
-        artesanato.setOnClickListener(new View.OnClickListener() {
+        Button btnArtesanato = findViewById(R.id.artesanato);
+        btnArtesanato.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent artesanatoIntent = new Intent(MainActivity.this, ArtesanatoActivity.class);
@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        Button shoppings = findViewById(R.id.shoppings);
-        shoppings.setOnClickListener(new View.OnClickListener() {
+        Button btnShoppings = findViewById(R.id.shoppings);
+        btnShoppings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent shoppingsIntent = new Intent(MainActivity.this, ShoppingsActivity.class);
@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button pracas = findViewById(R.id.pracas);
-        pracas.setOnClickListener(new View.OnClickListener() {
+        Button btnPracas = findViewById(R.id.pracas);
+        btnPracas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent pracasIntent = new Intent(MainActivity.this, PracasActivity.class);
@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        Button parquesBtn = findViewById(R.id.parqueslivres);
+        Button btnParques = findViewById(R.id.parqueslivres);
 
-        parquesBtn.setOnClickListener(new View.OnClickListener() {
+        btnParques.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent parqueintent = new Intent(getApplicationContext(), ParqueAquaticoActivity.class);
@@ -52,9 +52,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button praiasBtn = findViewById(R.id.praias);
+        Button btnPraias = findViewById(R.id.praias);
 
-        praiasBtn.setOnClickListener(new View.OnClickListener() {
+        btnPraias.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, PraiasActivity.class);
