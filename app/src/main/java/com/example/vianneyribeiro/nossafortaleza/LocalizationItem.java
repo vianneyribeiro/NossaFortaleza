@@ -9,13 +9,13 @@ public class LocalizationItem {
     private int mImagem;
     private String mNome;
     private String mDescricao;
-    private String mDistancia;
+    private String mLocal;
 
-    public LocalizationItem(int mImagem, String mNome, String mDescricao, String mDistancia) {
+    public LocalizationItem(int mImagem, String mNome, String mDescricao, String mLocal) {
         this.mImagem = mImagem;
         this.mNome = mNome;
         this.mDescricao = mDescricao;
-        this.mDistancia = mDistancia;
+        this.mLocal = mLocal;
     }
 
     public int getmImagem() {
@@ -31,7 +31,7 @@ public class LocalizationItem {
     }
 
     public String getmDistancia() {
-        return mDistancia;
+        return mLocal;
     }
 }
 

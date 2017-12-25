@@ -18,7 +18,7 @@ public class ParqueAquaticoActivity extends AppCompatActivity {
 
         ArrayList<LocalizationItem> arrayList = new ArrayList<>();
         arrayList.add(new LocalizationItem(R.drawable.beachpark, "Beach Park", "Beach Park é um complexo turístico do litoral do Nordeste do Brasil, na praia de Porto das Dunas", "16 Km de Fortaleza"));
-        arrayList.add(new LocalizationItem(R.drawable.ytacaranhalowres, "Ytacaranha Park", "O Ytacaranha Park é um complexo turístico que dispõe de um maravilhoso parque aquático e um confortável Hotel de Praia", "220 Km de Fortaleza"));
+        arrayList.add(new LocalizationItem(R.drawable.ytacaranha, "Ytacaranha Park", "O Ytacaranha Park é um complexo turístico que dispõe de um maravilhoso parque aquático e um confortável Hotel de Praia", "220 Km de Fortaleza"));
 
         ArrayAdapter adapter = new LocalizationAdapter(this, arrayList);
         listView.setAdapter(adapter);
