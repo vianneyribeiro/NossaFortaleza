@@ -24,11 +24,11 @@ public class ShoppingsActivity extends AppCompatActivity {
 
     private ArrayList<String> preencherDados() {
         ArrayList<String> dados = new ArrayList<>();
-        dados.add("Center Um Shopping");
-        dados.add("RioMar Shopping");
-        dados.add("Shopping Iguatemi");
-        dados.add("Mercadão Shopping");
-        dados.add("Gran Shopping Malharia");
+        dados.add(getString(R.string.shopping_centerUm));
+        dados.add(getString(R.string.shopping_eusebio));
+        dados.add(getString(R.string.shopping_Iguatemi));
+        dados.add(getString(R.string.shopping_mercadao));
+        dados.add(getString(R.string.shopping_RioMar));
         return dados;
     }
 }
