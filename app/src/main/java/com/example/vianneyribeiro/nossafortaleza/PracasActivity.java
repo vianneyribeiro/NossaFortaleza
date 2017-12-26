@@ -24,11 +24,11 @@ public class PracasActivity extends AppCompatActivity {
 
     private ArrayList<String> preencherDados() {
         ArrayList<String> dados = new ArrayList<>();
-        dados.add("Pracinha do Lagamar");
-        dados.add("Praça da Messejana");
-        dados.add("Praça Luiza Távora");
-        dados.add("Praça dos Leões");
-        dados.add("Praça Eng. João Tomé");
+        dados.add(getString(R.string.praca_dos_leoes));
+        dados.add(getString(R.string.praca_joao_tome));
+        dados.add(getString(R.string.praca_lagamar));
+        dados.add(getString(R.string.praca_luiza_tavora));
+        dados.add(getString(R.string.praca_messejana));
         return dados;
     }
 }

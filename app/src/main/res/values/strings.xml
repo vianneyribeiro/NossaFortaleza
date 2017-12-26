@@ -37,5 +37,17 @@
     <string name="shopping_RioMar">Shopping Center Rio Mar</string>
     <string name="shopping_mercadao">Mercadão Shopping</string>
     <string name="shopping_eusebio">Shopping Center Marcadão</string>
+    <string name="praca_lagamar">Pracinha do Lagamar</string>
+    <string name="praca_messejana">Praça da Messejana</string>
+    <string name="praca_luiza_tavora">Praça Luiza Távora</string>
+    <string name="praca_dos_leoes">Praça dos Leões</string>
+    <string name="praca_joao_tome">Praça Eng. João Tomé</string>
+    <string name="parque_beachPark">Beach Park</string>
+    <string name="parque_beachPark_desc">Beach Park é um complexo turístico do litoral do Nordeste do Brasil, na praia de Porto das Dunas</string>
+    <string name="parque_beachpark_local">16 Km de Fortaleza</string>
+    <string name="parque_ytacaranha">Ytacaranha Park</string>
+    <string name="parque_ytacaranha_desc">O Ytacaranha Park é um complexo turístico que dispõe de um maravilhoso parque aquático e um confortável Hotel de Praia</string>
+    <string name="parque_ytacaranha_local">220 Km de Fortaleza</string>
+
 
 </resources>
